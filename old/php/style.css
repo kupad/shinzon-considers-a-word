@@ -1,0 +1,34 @@
+body{
+	font-family: Helvetica, FreeSans, Arial, sans-serif;
+	color: white;
+	background-color: black;
+
+}
+
+div#top{
+	text-align: center;
+}
+
+div#main{
+	width: 1200px;
+	text-align: center;
+}
+
+div#vs{
+	text-align: center;
+	vertical-align: -200px;
+	float: left;
+}
+
+span.line{
+	font-size: 2em;
+}
+
+span.word{
+	font-size: 4em;
+
+}
+
+div#spacer{
+	min-width: 150px;
+}

@@ -1,0 +1,67 @@
+<?php require "db.php"; ?><?php
+//error_log("SHINZON HIT");
+	$maxId = getMaxId();
+    $shinzon=null;
+    $danatra=null;
+	while( is_null($shinzon) ) {
+		$shinzon = getWord( rand(1,$maxId) );
+	}
+	while( is_null($danatra) ) {
+		$danatra = getWord( rand(1,$maxId) );
+	}
+?>
+
+<html>
+<head>
+<title>There's a word I want you to consider...</title>
+<link rel="stylesheet" href="css/nemesis.css" type="text/css" />
+</head>
+<body>
+
+<center><a href=""><img src="images/shinzon_considers_a_word.gif" alt="Shinzon Considers A Word" border="0" /></a></center><br/><br/>
+
+
+<center>
+<table border="0"><tr>
+<td valign="top">
+<img src="images/Shinzon.jpg" width="500px" height="300px" alt="Praetor Shinzon" title="Praetor Shinzon" /><br/>
+<span class="line">There's a word I want you to consider:</span><br/>
+</td>
+
+<td>
+<div id="spacer"></div>
+</td>
+
+<td valign="top">
+<img src="images/Donatra.jpg" width="500px" height="300px" alt="Commander Donatra" title="Commander Donatra" /><br/>
+<span class="line">Here's another word:</span><br/>
+</td>
+
+<tr>
+<td> <span class="word"><?php echo $shinzon ?></span> </td>
+<td></td>
+<td> <span class="word"><?php echo $danatra?></span> </td>
+</td>
+</table>
+
+<p><a href="">Consider Another Word With Shinzon and Donatra</a></p>
+
+</center>
+
+<br /><br />
+<!--
+<a href="http://www.blinkbox.com/Movies/30544/Star-Trek-Nemesis?Scene=34575" target="_blank">allegiance</a>
+-->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-9896263-3");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+
