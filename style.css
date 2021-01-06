@@ -1,0 +1,47 @@
+body{
+	font-family: Helvetica, FreeSans, Arial, sans-serif;
+	color: white;
+	background-color: black;
+}
+
+.center {
+	text-align: center;
+}
+
+div#profiles {
+    padding-top: 20px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+div#shinzon{
+    float: left;
+    /* border: 1px solid white; */
+}
+
+div#donatra{
+    float: right;
+    /* border: 1px solid white; */
+}
+
+a#text-link {
+    color: white;
+}
+    
+div.float-clear {
+    clear: both;
+}
+
+.line{
+	font-size: 2em;
+}
+
+.word{
+	font-size: 4em;
+
+}
+
+div.spacer {
+    padding-top: 10px;
+}
+

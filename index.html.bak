@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shinzon Considers A Word</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+
+    <p id="title"><a href="#"><img src="images/shinzon_considers_a_word.gif" alt="Shinzon Considers A Word" border="0" /></a></p>
+
+
+    <center>
+    <table border="0"><tr>
+        <td valign="top">
+        <img src="images/Shinzon.jpg" width="500px" height="300px" alt="Praetor Shinzon" title="Praetor Shinzon" /><br/>
+        <span class="line">There's a word I want you to consider:</span><br/>
+        </td>
+
+        <td>
+        <div id="spacer"></div>
+        </td>
+
+        <td valign="top">
+        <img src="images/Donatra.jpg" width="500px" height="300px" alt="Commander Donatra" title="Commander Donatra" /><br/>
+        <span class="line">Here's another word:</span><br/>
+        </td>
+
+        <tr>
+        <td> <span class="word">loyalty</span> </td>
+        <td></td>
+        <td> <span class="word">trust</span> </td>
+
+    </table>
+
+    <p><a href="">Consider Another Word With Shinzon and Donatra</a></p>
+
+    </center>
+
+
+    <p><a href="wtf.html">WTF is this?</a></p>
+
+    <p><img src="images/neocities.png"></p>
+
+</body>
+</html>
+
